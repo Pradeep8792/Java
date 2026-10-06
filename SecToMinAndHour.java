@@ -7,7 +7,8 @@ public class SecToMinAndHour {
         System.out.println(sec);
         System.out.println(min);
         System.out.println(hr);
-
+        
+      
         
 
     }

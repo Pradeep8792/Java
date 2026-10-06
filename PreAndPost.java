@@ -54,7 +54,6 @@ public class PreAndPost {
         System.out.println(f);
         System.out.println();
 
-
         // home -- take input assign with decreament (pre and post )
         System.out.println("Section 5 simple expression");
         int g = 10;
@@ -77,8 +76,6 @@ public class PreAndPost {
         System.out.println(h);//
         System.out.println(++h - (--h));//
         System.out.println(h);//
-
-
 
         System.out.println("Section  - 7 :Character increament ");
 
@@ -113,13 +110,16 @@ public class PreAndPost {
 
         char ch1 = 'A';
 
-        System.out.println(ch1++);
+        System.out.println(ch1--);
         System.out.println(ch1);
 
-        System.out.println(++ch1);
+        System.out.println(--ch1);
 
-
-
+        int i=10;
+        i=i++;
+        System.out.println(i);
+        int j= i+1;
+        System.out.println(j);
 
     }
 }
