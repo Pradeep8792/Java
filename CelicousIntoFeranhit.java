@@ -4,4 +4,4 @@ public class CelicousIntoFeranhit {
         int Feranhit =(calcious * 9/5)+32;
         System.out.println("Feranhit "+Feranhit);
     }
-}
+} 
