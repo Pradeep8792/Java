@@ -1,84 +1,86 @@
 public class Patterns {
     public static void main(String[] args) {
         
-        // for( int i =0;i<5;i++)
-        // {
-        //     for( int j= 0;j<5;j++)//rows 1 to 5
-        //     {
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
+        for( int i =0;i<5;i++)
+        {
+            for( int j= 0;j<5;j++)//rows 1 to 5
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
-        //    for( int i =0;i<5;i++)
-        // {
-        //     for( int j= 0;j<5;j++)//rows 1 to 5
-        //     {
-        //         System.out.print(j);
-        //     }
-        //     System.out.println();
-        // }
+           for( int i =0;i<5;i++)
+        {
+            for( int j= 0;j<5;j++)//rows 1 to 5
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
 
 
-        // // left triangle
-        //    for( int i =0;i<5;i++)
-        // {
-        //     for( int j= 0;j<i;j++)
-        //     {
-        //         System.out.print("*");
-        //     }
+        // left triangle
+        System.out.println("============ Left triangle===========");
+           for( int i =0;i<5;i++)
+        {
+            for( int j= 0;j<i;j++)
+            {
+                System.out.print("*");
+            }
             
-        //     System.out.println();
-        // }
+            System.out.println();
+        }
+        System.out.println("=================");
 
-        // // dimension
-        // for( int i =5;i>=0;i--)
-        // {
-        //     for(int j =0;j<=i;j++)
-        //     {
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
+        // dimension
+        for( int i =5;i>=0;i--)
+        {
+            for(int j =0;j<=i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         //right triangle 
-    //     for( int i =1;i<=5;i++)
-    //    {
-    //         for(int j = 1;j<=5-i;j++)
-    //         {
-    //             System.out.print(" ");
-    //         }
-    //         for(int j = 1;j<=i;j++)
-    //         {
-    //             System.out.print("* ");
-    //         }
-    //         System.out.println();
-    //    }
-    //    System.out.println("============");
-    //     for( int i =5;i>=0;i--)
-    //    {
-    //         for(int j = 1;j<=5-i;j++)
-    //         {
-    //             System.out.print(" ");
-    //         }
-    //         for(int j = 1;j<=i;j++)
-    //         {
-    //             System.out.print("* ");
-    //         }
-    //         System.out.println();
-    //    }
+        for( int i =1;i<=5;i++)
+       {
+            for(int j = 1;j<=5-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j = 1;j<=i;j++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+       }
+       System.out.println("============");
+        for( int i =5;i>=0;i--)
+       {
+            for(int j = 1;j<=5-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j = 1;j<=i;j++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+       }
 
-    // int h=1;
-    // for(int i =0;i<3;i++)
-    // {
-    //     for(int j=0;j<3;j++)
-    //     {
-    //         System.out.print(h);
-    //         h++;
-    //     }
-    //     System.out.println();
-    // }
+    int h=1;
+    for(int i =0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            System.out.print(h);
+            h++;
+        }
+        System.out.println();
+    }
 
 
 
