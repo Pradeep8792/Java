@@ -1,6 +1,8 @@
 
 
 public class ArmStrongNumber {
+
+    
     public static  void main(String args[])
     {
         int num=153;
@@ -23,6 +25,6 @@ public class ArmStrongNumber {
 
             System.out.println("Given number is not  arm strong ");
         }
-       System.out.println("Rev :"+sum);
+       System.out.println("Rev : "+sum);
     }
 }
